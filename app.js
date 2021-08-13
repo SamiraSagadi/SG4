@@ -16,7 +16,8 @@ form.addEventListener('submit', function(e){
     } else {
     //calculate CO2 emission
     const CO2 = ((inbox*4) + (spam*0.3))
+    const Netflix = Math.round(CO2/36) 
 
     //display the results
-    results.innerHTML = "This is your CO2 emission : " + CO2 + "g"  }
+    results.innerHTML = "This is your CO2 emission : " + CO2 + "g. This is equivalent to watching " + Netflix + " hours of Netflix!"  }
 });

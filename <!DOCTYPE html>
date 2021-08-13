@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Death by Email</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 <body>
     <div class="container">
@@ -14,19 +12,25 @@
     <p><label>Inbox: </label><input type="text" id="inbox"></p>
     <p><label>Spam: </label><input type="text" id="spam"></p>
     <button onClick = "newQuote()" id = "button">Calculate</button> 
-
+      
     <div id = "quote-display"></div>
     <!-- <span class="close">&times;</span> X on the popup box  -->
     <div id="results"></div>
     </form>
     </div>
 </div>
-
+   
     <div id="Email-guide">
     <h3> CO2 Email Guide</h3> 
     <p>Inbox = 4g of CO2 per email sent or received</p>
     <p>Spam = 0.3g of CO2</p>
     </div>
+  
+  
+ 
+
+
+
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -35,17 +39,16 @@
   <div class="modal-content">
     <div class="modal-header">
       <span class="close">&times;</span>
-      <h2>Did you know</h2>
+      <h2>Modal Header</h2>
     </div>
     <div class="modal-body">
-      <div class = "Quote-generator">
-        <div id = "quote-display">
-        </div>
-        <p>  "The global carbon footprint from spam annually is equivalent to the greenhouse gases pumped out by 3.1 million passenger cars using 7.6 billion litres (two billion gallons) of gasoline in a year."</p>
+      
+      
+      <p>Some other text...</p>
     </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
     </div>
   </div>
+
 </div>
-</body>
-<script src="app.js"></script>
-</html>

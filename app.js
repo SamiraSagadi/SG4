@@ -1,7 +1,7 @@
 var modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
-var buttonn = document.getElementById("button");
+var button = document.getElementById("button");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
@@ -31,7 +31,6 @@ window.onclick = function(event) {
     "A mile of cycling fuelled by a meal of bananas would be responsible for 65 gCO2e, compared to 260 gCO2e for a mile powered by cheeseburgers.",
     "The global carbon footprint from spam annually is equivalent to the greenhouse gases pumped out by 3.1 million passenger cars using 7.6 billion litres (two billion gallons) of gasoline in a year."
   ];
-
   function newQuote(){
     var randomNumber = Math.floor(Math.random()*(quotes.length));
     document.getElementById('quote-display').innerHTML = quotes[randomNumber];

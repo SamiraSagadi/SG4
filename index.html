@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Death by Email</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
@@ -14,19 +12,21 @@
     <p><label>Inbox: </label><input type="text" id="inbox"></p>
     <p><label>Spam: </label><input type="text" id="spam"></p>
     <button onClick = "newQuote()" id = "button">Calculate</button> 
-
+      
     <div id = "quote-display"></div>
     <!-- <span class="close">&times;</span> X on the popup box  -->
     <div id="results"></div>
     </form>
     </div>
 </div>
-
+   
     <div id="Email-guide">
     <h3> CO2 Email Guide</h3> 
     <p>Inbox = 4g of CO2 per email sent or received</p>
     <p>Spam = 0.3g of CO2</p>
     </div>
+  
+  
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -45,7 +45,52 @@
     </div>
     </div>
   </div>
+
 </div>
-</body>
-<script src="app.js"></script>
+  
+  <!-- Tip Flip Cards-->
+    <h1 id = "flip-header">Tips to Reduce the Carbon Footprint of Your Email</h1>
+    <div class ="flip-tips">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src=https://www.cwjobs.co.uk/insights/environmental-impact-of-emails/img/email_ok.png alt="The Perfect Info">
+            </div>
+            <div class="flip-card-back">
+                <h1>The Perfect Info</h1>
+                <p>Check your emails thoroughly before sending them to ensure they contain all the necessary (and correct) information.</p>
+                <p>It avoids the need for a follow-up email.</p>
+            </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src=https://www.cwjobs.co.uk/insights/environmental-impact-of-emails/img/todo_list.png alt="The Correct List">
+            </div>
+            <div class="flip-card-back">
+                <h1>The Correct List</h1>
+                <p>Regularly clean and maintain mailing lists.</p>
+                <p>Remove any contacts that unsubscribe, and update changed email address immediately.</p>
+            </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src=https://www.cwjobs.co.uk/insights/environmental-impact-of-emails/img/libra.png alt="The Right Content">
+            </div>
+            <div class="flip-card-back">
+                <h1>The Right Content</h1>
+                <p>Hyperlink files or information held online rather than adding an attachment.</p>
+                <p>An email with an attachment releases 50g of CO2, against 4g for one without.</p>
+            </div>
+            </div>
+        </div>
+    </div>
+  
+  </body>
+  <script src="app.js"></script>
 </html>

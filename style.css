@@ -5,12 +5,34 @@ background-image: url(https://st2.depositphotos.com/3549671/10496/v/950/depositp
 #Email-guide{
     flex-direction: column;
     display: flex;
-    float: right;
+    float: center;
     justify-content: flex-start;
     height: 25%;
+    margin-right: 0px;
+    margin:auto ;
+    border: solid;
+    box-sizing:content-box;
+    height: 250px;
+    width: 400px;
+    text-indent: 50px;
+    margin-top: 70px;
 }
 
 .container{
     flex-direction: column;
-    padding-right: 20%;
+    display: flex;
+    justify-content: flex-start;
+    float: center;
+    text-align: center;
+    /* justify-content: center; */
+    padding-top: 35px;
+    margin: auto;
+    border: solid;
+    box-sizing:content-box;
+    height: 250px;
+    width: 400px;
+    border-style: double;
+    text-indent: 0px;
+    margin-top: 70px;
+    
 }
